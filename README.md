@@ -63,7 +63,9 @@ These percentages describe spatial overlap between the two mapped survey periods
 
 ## Map Output
 
-The final map visualises the spatial distribution of persistent seagrass, mapped expansion, and mapped loss between 1948 and 1960.
+The following map illustrates the spatial distribution of persistent seagrass, mapped expansion, and mapped loss between 1948 and 1960.
+
+Figure 1. Historical seagrass extent change in Tauranga Harbour, New Zealand (1948–1960).
 
 ## Limitations
 
