@@ -239,7 +239,7 @@ The results show that spatial overlap was not uniform across the study area. Som
 
 **Figure 1.** Historical seagrass extent change in Tauranga Harbour, New Zealand (1948–1960). The map displays persistent mapped seagrass, mapped expansion and mapped loss.
 
-*Insert the final exported QGIS map here.*
+![Historical Seagrass Change in Tauranga Harbour](../Tauranga_Seagrass_Change_1948_1960.png)
 
 ## 6. Discussion
 
