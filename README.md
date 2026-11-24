@@ -22,14 +22,16 @@ The analysis focuses on mapped seagrass habitat within Tauranga Harbour, includi
 
 ## Data Sources
 
-The historical habitat data were obtained from the Tauranga Localised Datasets 1943–1960 service.
+The historical habitat data were obtained from the **Tauranga Localised Datasets 1943–1960** service.
 
 The dataset documentation states that the layer was compiled primarily from regional council datasets, with contributions from DOC and other agencies.
 
-- Data provider: New Zealand Department of Conservation (DOC) SeaSketch
-- Habitat: Seagrass (*Zostera muelleri*)
-- Survey years analysed: 1948 and 1960
-- Coordinate Reference System: NZTM2000 (EPSG:2193)
+- **Data provider:** New Zealand Department of Conservation (DOC), SeaSketch
+- **Dataset:** Tauranga Localised Datasets 1943–1960
+- **Habitat:** Seagrass (*Zostera muelleri*)
+- **Survey years analysed:** 1948 and 1960
+- **Coordinate Reference System:** NZTM2000 (EPSG:2193)
+- **Original data source:** [DOC SeaSketch – Tauranga Localised Datasets 1943–1960](PASTE_ORIGINAL_ARCGIS_MAPSERVER_LINK_HERE)
 
 ## Methodology
 
@@ -39,12 +41,14 @@ The project workflow included:
 2. Inspection and preparation of the spatial datasets.
 3. Reprojection to NZTM2000 (EPSG:2193).
 4. Separation of the 1948 and 1960 survey records.
-5. Geometry validation and correction.
-6. Spatial intersection to identify overlapping mapped habitat.
-7. Calculation of mapped persistence, loss, and expansion areas.
-8. Calculation of area statistics and preparation of the final map.
+5. Geometry validation and correction using the QGIS Fix Geometries tool.
+6. Spatial intersection to identify areas mapped in both survey periods (persistent mapped seagrass).
+7. Difference analysis to identify mapped loss (1948 minus 1960) and mapped expansion (1960 minus 1948).
+8. Calculation of polygon areas in hectares.
+9. Calculation of spatial persistence percentages and area statistics.
+10. Preparation of the final change-detection map using QGIS.
 
-## Preliminary Results
+## Results
 
 | Metric | Area |
 |---|---:|
