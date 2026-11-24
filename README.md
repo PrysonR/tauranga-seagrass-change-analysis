@@ -83,9 +83,32 @@ The following map illustrates the spatial distribution of persistent seagrass, m
 - Coordinate reference systems and reprojection
 - Area calculations and spatial statistics
 
-## Project Status
+## Project Files and Reproducibility
 
-Initial spatial analysis and map preparation completed. Further documentation, interpretation, and reproducibility materials are in development.
+The repository contains the QGIS project, processed spatial datasets, analysis outputs and technical documentation.
+
+### Repository Structure
+
+| Folder/File | Description |
+|---|---|
+| `project/` | QGIS project file (.qgz) |
+| `data/processed/` | Processed GeoPackage datasets |
+| `methods/` | GIS methodology and processing workflow |
+| `results/` | Spatial analysis results and statistics |
+| `report/` | Technical report in Markdown and PDF formats |
+| `Tauranga_Seagrass_Change_1948_1960.png` | Final change-detection map |
+
+### How to Reproduce the Analysis
+
+1. Download or clone this repository.
+2. Open the QGIS project located in `project/`.
+3. Ensure the supporting GeoPackage datasets are available in `data/processed/`.
+4. Review the methodology documentation in `methods/`.
+5. Explore the spatial outputs and statistics in `results/`.
+
+**Software:** QGIS  
+**Coordinate Reference System:** NZTM2000 (EPSG:2193)  
+**Spatial Data Format:** GeoPackage (.gpkg)
 
 ## Author
 
