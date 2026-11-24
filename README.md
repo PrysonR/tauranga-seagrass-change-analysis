@@ -31,7 +31,7 @@ The dataset documentation states that the layer was compiled primarily from regi
 - **Habitat:** Seagrass (*Zostera muelleri*)
 - **Survey years analysed:** 1948 and 1960
 - **Coordinate Reference System:** NZTM2000 (EPSG:2193)
-- **Original data source:** [DOC SeaSketch – Tauranga Localised Datasets 1943–1960](PASTE_ORIGINAL_ARCGIS_MAPSERVER_LINK_HERE)
+- **Original data source:** [DOC SeaSketch – Tauranga Localised Datasets 1943–1960](https://seasketch.doc.govt.nz/arcgis/rest/services/National/Tauranga_Localised_Datasets_1943_to_1960/MapServer)
 
 ## Methodology
 
