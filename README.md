@@ -95,7 +95,7 @@ The repository contains the QGIS project, processed spatial datasets, analysis o
 
 | Folder/File | Description |
 |---|---|
-| `project/` | QGIS project file (.qgz) |
+| `project/` | Final QGIS project with repaired layer paths |
 | `data/processed/` | Processed GeoPackage datasets |
 | `methods/` | GIS methodology and processing workflow |
 | `results/` | Spatial analysis results and statistics |
@@ -105,8 +105,8 @@ The repository contains the QGIS project, processed spatial datasets, analysis o
 ### How to Reproduce the Analysis
 
 1. Download or clone this repository.
-2. Open the QGIS project located in `project/`.
-3. Ensure the supporting GeoPackage datasets are available in `data/processed/`.
+2. Open `project/Tauranga_Seagrass_Final.qgz` in QGIS.
+3. Ensure all supporting GeoPackage datasets are available in `data/processed/`.
 4. Review the methodology documentation in `methods/`.
 5. Explore the spatial outputs and statistics in `results/`.
 
